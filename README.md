@@ -14,9 +14,9 @@ p {
 </style>
 -->
 
-# Traversy Media
+### Traversy Media
 
-## Web Development Courses For Everyone
+# Web Development Courses For Everyone
 
 Practical project-based courses that are easy to understand and straight to the point with NO FLUFF
 

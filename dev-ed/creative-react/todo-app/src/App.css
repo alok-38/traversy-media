@@ -1,0 +1,35 @@
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 70%;
+  margin-right: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}

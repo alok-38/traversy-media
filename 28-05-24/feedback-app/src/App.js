@@ -1,11 +1,9 @@
-import Hello from "./components/Hello";
-import Variables from "./components/Variables";
+import Main from "./components/Main";
 
 export default function App() {
   return (
     <>
-      <Hello />
-      <Variables />
+      <Main />
     </>
   );
 }

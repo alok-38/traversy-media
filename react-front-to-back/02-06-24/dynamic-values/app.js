@@ -10,6 +10,7 @@ function App() {
   ];
 
   const loading = false;
+  const showComments = true;
 
   if (loading) return <h1>Loading ...</h1>;
 
@@ -17,14 +18,18 @@ function App() {
     <div>
       <h1>{title.toUpperCase()}</h1>
       <p>{body}</p>
-      <div>
-        <h3>Comments ({comments.length})</h3>
-        <ul>
-          {comments.map((comment, index) => (
-            <li key={index}>{comment.text}</li>
-          ))}
-        </ul>
-      </div>
+      {showComments ? (
+        <div>
+          <h3>Comments ({comments.length})</h3>
+          <ul>
+            {comments.map((comment, index) => (
+              <li key={index}>{comment.text}</li>
+            ))}
+          </ul>
+        </div>
+      ) : (
+        "No"
+      )}
     </div>
   );
 }

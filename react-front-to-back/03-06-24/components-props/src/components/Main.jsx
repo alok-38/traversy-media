@@ -1,12 +1,13 @@
-import Header from "./components/Header";
+import FeedBackItem from "./FeedBackItem";
+import Header from "./Header";
 
-export default function App() {
+export default function Main() {
   return (
-    <div className="bg-[#202142] h-screen text-[#ffffff] leading-10">
+    <>
       <Header text="Feedback UI" />
-      <div className="contianer">
-        <h1>My App</h1>
-      </div>
-    </div>
+      <main className="container">
+        <FeedBackItem />
+      </main>
+    </>
   );
 }

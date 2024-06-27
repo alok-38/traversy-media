@@ -19,9 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {children}
         <Navbar />
-        <Sidebar />
+        <div className="flex">
+          <div className="hidden md:block h-[100vh]">
+            <Sidebar />
+          </div>
+          <div className="p-5 w-full md:max-w-[1140px]">{children}</div>
+        </div>
       </body>
     </html>
   );
